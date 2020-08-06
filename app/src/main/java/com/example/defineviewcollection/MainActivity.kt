@@ -23,6 +23,14 @@ class MainActivity : AppCompatActivity() {
         id_custom_view.setOnClickListener {
             Log.e("MyApp::", "setOnClickListener")
         }
+
+        btn_request.setOnClickListener {
+            dvg.userRequestLayout()
+        }
+
+        btn_invalidate.setOnClickListener {
+            dvg.useInvalidate()
+        }
     }
 
     override fun dispatchTouchEvent(ev: MotionEvent?): Boolean {

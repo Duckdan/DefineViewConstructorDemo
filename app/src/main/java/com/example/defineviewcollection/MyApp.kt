@@ -5,6 +5,10 @@ import android.app.Application
 import android.os.Bundle
 import android.util.Log
 
+/**
+ * Android自定义View构造函数详解
+ * https://blog.csdn.net/wzy_1988/article/details/49619773
+ */
 class MyApp : Application() {
 
     override fun onCreate() {

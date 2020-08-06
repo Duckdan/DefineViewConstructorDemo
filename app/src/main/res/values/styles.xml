@@ -26,4 +26,9 @@
         <item name="custom_attr3">attr3_defStyleRes</item>
         <item name="custom_attr4">attr4_defStyleRes</item>
     </style>
+
+    <style name="dialogWindowAnim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
 </resources>
